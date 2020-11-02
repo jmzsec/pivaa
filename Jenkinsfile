@@ -4,14 +4,14 @@ pipeline {
 
     stages {
 
-/*stage('SAST') {
+ 		stage('SAST') {
 
             steps {
                 
                 sh 'horusec start -p="./"'
             }
         }
-*/
+
 
 		stage ('Build') {
             steps { 

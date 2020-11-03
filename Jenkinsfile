@@ -8,7 +8,7 @@ pipeline {
 
             steps {
                 echo "Horusec"
-				sh 'curl -fsSL https://horusec-cli.s3.amazonaws.com/install.sh | bash'
+				//sh 'curl -fsSL https://horusec-cli.s3.amazonaws.com/install.sh | bash'
                 sh 'horusec start -p="./" -e="true"'
 
                 //sh 'horusec start -p="./"'

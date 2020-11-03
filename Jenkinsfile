@@ -17,7 +17,7 @@ pipeline {
 		stage ('Build') {
             steps { 
 			    sh """ 
-				    gradle clean assemble --no-daemon -x lintVitalRelease 
+				    cd /home/jm/projetos && gradle clean assemble --no-daemon -x lintVitalRelease 
  			    """
             }
         }

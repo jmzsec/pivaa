@@ -4,7 +4,7 @@ pipeline {
 
     stages {
 
- 		stage('SAST') {
+/* 		stage('SAST') {
             steps {
 	            echo "horus"
 				//sh 'curl -fsSL https://horusec-cli.s3.amazonaws.com/install.sh | bash'
@@ -12,7 +12,7 @@ pipeline {
 
             }
         }
-
+*/
 
 		stage ('Build') {
             steps { 

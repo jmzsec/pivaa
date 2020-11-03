@@ -7,8 +7,8 @@ pipeline {
  		stage('SAST') {
 
             steps {
-                
-                sh 'horusec start -p="./"'
+                echo "Horusec"
+                //sh 'horusec start -p="./"'
             }
         }
 

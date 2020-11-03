@@ -8,7 +8,7 @@ pipeline {
 
             steps {
                 
-          //      sh 'horusec start -p="./"'
+                sh 'horusec start -p="./"'
             }
         }
 

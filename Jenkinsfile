@@ -17,7 +17,8 @@ pipeline {
 		stage ('Build') {
             steps { 
 			    sh """ 
-					cd {$PWD} && gradle clean assemble --no-daemon -x lintVitalRelease 
+					echo $PWD
+					gradle clean assemble --no-daemon -x lintVitalRelease 
  			    """
             }
         }

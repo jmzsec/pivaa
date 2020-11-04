@@ -2,7 +2,7 @@
 pipeline {
     agent any 
 	environment {
-		MOBSF_FILE="/home/jm/projeto/pivaa/app/build/outputs/apk/debug/app-debug.apk"
+		MOBSF_FILE="/home/jm/devops/pivaa/app/build/outputs/apk/debug/app-debug.apk"
 		MOBSF_APIKEY="8176dec5ce2b50f71eb7759b43439b69eac8bdca572b686d7741abf0c14ff239"
 	}
     stages {

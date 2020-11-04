@@ -16,7 +16,7 @@ pipeline {
 		stage ('Build') {
             steps { 
 			    sh """ 
-					cd /home/jm/devops/pivaa && gradle assembleDebug -x lintVitalRelease
+					gradle assembleDebug -x lintVitalRelease
 	 			   """
             }
         }

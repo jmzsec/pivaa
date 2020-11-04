@@ -19,7 +19,7 @@ pipeline {
 		stage ('Build') {
             steps { 
 			    sh """ 
-					cd /home/jm/projetos && gradle clean assembleDebug --no-daemon -x lintVitalRelease
+					cd /home/jm/devops/pivaa && gradle clean assembleDebug --no-daemon -x lintVitalRelease
 	 			   """
             }
         }

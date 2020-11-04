@@ -3,7 +3,7 @@ pipeline {
     agent any 
 	environment {
 
-		TESTE="file=@/home/jm/devops/pivaa/app/build/outputs/apk/debug/app-debug.apk\"
+		TESTE="'file=@/home/jm/devops/pivaa/app/build/outputs/apk/debug/app-debug.apk\'"
 		WORK_DIR="/home/jm/devops/pivaa/app/build/outputs/apk/debug/"
 		WORK_FILE="app-debug.apk"
 		MOBSF_APIKEY="8176dec5ce2b50f71eb7759b43439b69eac8bdca572b686d7741abf0c14ff239"
